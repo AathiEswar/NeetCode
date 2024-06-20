@@ -1,6 +1,19 @@
 package NeetCode;
 
 public class OnesInBinary {
+    public int hammingWeightBrianKernighan(int n){
+        int count = 0;
+
+        while(n != 0){
+            // Brian Kernighan algorithm
+
+            // turns off the right most bit (i.e 1)
+            n = n & (n-1);
+            count++;
+        }
+
+        return count;
+    }
     public int hammingWeight(int n) {
 
         int count = 0;
