@@ -8,7 +8,7 @@ public class GuessNum {
         while(start <= end){
             int mid = start + (end - start)/2;
 
-            int guessNum = guess(mid);
+            //int guessNum = guess(mid);
 
             if(guessNum == 0){
                 return mid;
