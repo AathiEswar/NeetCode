@@ -30,7 +30,7 @@ public class NextGreaterElement1 {
                 i++;
                 j = i + 1;
             }
-            // if no max found move the j pointer to next to find max
+            // if no max found move the j pointer to next to find max-
             else{
                j++;
             }
